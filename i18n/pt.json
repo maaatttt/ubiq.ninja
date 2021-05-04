@@ -7,15 +7,15 @@
   },
   "wallet": {
     "sparrow": {
-      "title": "Sparrow detected",
+      "title": "Sparrow detectado",
       "msg": "Uma boa lâmina para a batalha."
     },
     "metamask": {
-      "title": "MetaMask detected",
+      "title": "MetaMask detectado",
       "msg": "uma lâmina cega é melhor do que lâmina nenhuma."
     },
     "none": {
-      "title": "No wallet detected",
+      "title": "Wallet não detectado",
       "msg": "Você deve estar armado para continuar."
     }
   },
@@ -31,5 +31,5 @@
     "title": "Search",
     "noResults": "Nenhum resultado encontrado..."
   },
-  "helpTranslate": "Help Translate"
+  "helpTranslate": "Ajude a traduzir"
 }
