@@ -6,7 +6,7 @@ createdAt:
 
 ## Artefatos Utilizados
 
-Os contratos de Shinobi foram dispensdaos na rede principal Ubiq por [5plint3r] (https://github.com/5plint3r) para os seguintes endereços:
+Os contratos de Shinobi foram dispensdaos na rede principal Ubiq por [5plint3r](https://github.com/5plint3r) para os seguintes endereços:
 
 * Factory: `0xba831e62ac14d8500cef0367b14f383d7b1b1b0a`
 * Router : `0xf3ce4655a44146c8eefbf45651f6479f9d67a77a`
