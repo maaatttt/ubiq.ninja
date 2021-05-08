@@ -69,15 +69,15 @@ Armazena informações agregadas para um token específico em todos os pares em 
 
 Informações sobre um par. Inclui referências a cada token dentro do par, informações de volume, informações de liquidez e mais. A entidade do par espelha o smart contract do par e também contém informações agregadas sobre o uso.
 
-| Field Name           | Value Type          | Description                                                                                                         |
+| Nome da Área         | Tipo de Valor       | Descrição                                                                                                         |
 | -------------------- | ------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| id                   | ID                  | pair contract address                                                                                               |
-| factory              | UniswapFactory      | reference to Shinobi factory entity                                                                                 |
-| token0               | Token               | reference to token0 as stored in pair contract                                                                      |
-| token1               | Token               | reference to token1 as stored in pair contract                                                                      |
-| reserve0             | BigDecimal          | reserve of token0                                                                                                   |
-| reserve1             | BigDecimal          | reserve of token1                                                                                                   |
-| totalSupply          | BigDecimal          | total supply of liquidity token distributed to LPs                                                                  |
+| id                   | ID                  | endereço de contrato do par                                                                                         |
+| factory              | UniswapFactory      | referência à entidade de fábrica Shinobi                                                                             |
+| token0               | Token               | referência ao token0 como armazenado no contrato de par                                                           |
+| token1               | Token               | referência ao token1 como armazenado no contrato de par                                                           |
+| reserve0             | BigDecimal          | reserva de token0                                                                                                   |
+| reserve1             | BigDecimal          | reserva de token1                                                                                                   |
+| totalSupply          | BigDecimal          | quantidade total de token de liquidez distribuído aos provedores de liquidez                                      |
 | reserveETH           | BigDecimal          | total liquidity in pair stored as an amount of UBQ                                                                  |
 | reserveUSD           | BigDecimal          | total liquidity amount in pair stored as an amount of USD                                                           |
 | trackedReserveETH    | BigDecimal          | total liquidity with only tracked amount (see tracked amounts)                                                      |
